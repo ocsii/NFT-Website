@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page - CCStore</title>
+
+    <link rel="stylesheet" href="style.css">
+  
+    <script defer src="js/app.js"></script>
+    <script defer src="js/faq.js"></script>
+    <script defer src="js/slideshow.js"></script>
+    <script defer src="js/menu.js"></script>
+    <script defer src="js/contact.js"></script>
+
+</head>
+<body>
+    
+    <!------------------ Header Section --------------------------->
+    <header>
+    <div class="container" id="homeJump">
+        <div class="navbar">
+            <div class="logo">
+                <a href="index.html"><img src="nft_images/ccstore.png" width="200px" alt="logo"></a>
+            </div>
+    
+            <nav> 
+                <ul id="MenuItems">
+                    <li> <a href="#homeJump"> Home </a></li>
+                    <li> <a href="#collectionsJump"> Collections </a></li>
+                    <li> <a href="#FAQJump"> FAQ </a></li>
+                    <li> <a href="#footerJump"> Contact </a></li> 
+                    <li class="dont_show"> <a href="login.html"> Log In </a></li> 
+                    <li class="dont_show"> <a href="cart.html"> Shopping Cart </a></li> 
+                    
+                </ul>
+            </nav>
+            
+            <a href="login.html"> <img src="nft_images/login.png" width="35px" class="nav_img" alt="login-image"></a>
+            <a href="cart.html"><img src="nft_images/shopping-bag (1).png" width="46px" class="nav_img" alt="cart-image"></a>  
+            <img src="nft_images/menu.png" onclick="menutoggle()" class="menu-icon" alt="menu-img">
+
+        </div>
+
+        
+        <div class="row"> 
+
+            <!-- Title -->
+            <div class="col-h " id="col_border" >
+                <h1 id="smaller_h1"> THE LARGEST </h1> 
+                <h1> NFT Marketplace </h1>
+              
+                <a href="#collectionsJump" class="explore-btn"> Discover Collections</a>
+            </div>
+               
+            <!-- Picture collection -->
+            <div class="col-h">
+                <div class="card card1"> 
+                </div>
+
+                <div class="card card2">
+                </div>
+
+                <div class="card card3">
+                </div>
+
+                <div class="card card4">
+                </div>
+            </div>
+
+        </div>
+    </div>
+    </header>
+
+<!----------  Slideshow --------------->
+<div class="slideshow-c hidden">
+    <h2 class="title">  Our featured collections </h2>
+
+    <div class="mySlides fade">
+      <img src="nft_images/coolcatheader.png" style="width:100%" alt="nft-image">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="nft_images/azukiheader.png" style="width:100%" alt="nft-image">
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="nft_images/cats.png" style="width:100%" alt="nft-image">
+    </div>
+    
+</div>
+<br>
+    
+<!-- Track which slide -->
+<div class="dot-container">
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+    <span class="dot"></span> 
+</div>
+
+
+
+<!------------- NFT Cards ---------------->
+
+<!-- Featured Collection: Cool cats -->
+
+<div class="small-container" id="collectionsJump">
+    <h2 class="title hidden">  Featured Collection of the Day - Cool Cats NFTs! </h2>
+
+    <div class="row">
+
+        <div class="col-nft-p hidden">
+            <a href="product-pages/coolcat1.html#product-jump"><img src="nft_images/coolcat1p.png" alt="nft-image"></a>
+            <h4>Cool Cats</h4>
+            <div class="nft_data_container">
+                <div class="one-half l">
+                    ETH 1.25
+                    <p>Floor Price</p> 
+                </div>
+                <div class="one-half r">
+                    #1254
+                    <p> Rank </p>
+                </div>   
+            </div>
+        </div>
+    
+        <div class="col-nft-p hidden">
+            <a href="product-pages/coolcat2.html#product-jump"><img src="nft_images/coolcat2p.png" alt="nft-image"></a>
+            <h4>Cool Cats</h4>
+            <div class="nft_data_container">
+                <div class="one-half l">
+                    ETH 86.12
+                    <p>Floor Price</p> 
+                </div>
+                <div class="one-half r">
+                    #3
+                    <p> Rank </p>
+                </div>   
+            </div>
+        </div>
+
+
+        <div class="col-nft-p hidden">
+            <a href="product-pages/coolcat3.html#product-jump"><img src="nft_images/coolcat3p.png" alt="nft-image"></a>
+            <h4>Cool Cats</h4>
+            <div class="nft_data_container">  
+                <div class="one-half l">
+                    ETH 5.23
+                    <p>Floor Price</p> 
+                </div>
+                <div class="one-half r">
+                    #734
+                    <p> Rank </p>
+                </div>   
+            </div>
+        </div>
+
+
+        <div class="col-nft-p hidden">
+            <a href="product-pages/coolcat4.html#product-jump"><img src="nft_images/coolcat4p.png" alt="nft-image"></a>
+            <h4>Cool Cats</h4>
+            <div class="nft_data_container">
+                <div class="one-half l">
+                    ETH 9.23
+                    <p>Floor Price</p> 
+                </div>
+                <div class="one-half r">
+                    #2351
+                    <p> Rank </p>
+                </div>   
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Rest of NFTs -->
+<!-- Row 1 -->
+  <div class="small-container">
+    <h2 class="title hidden">  Trending NFTs Available to Purchase  </h2>
+
+    <div class="row">
+        
+        <div class="col-nft-p hidden">
+            <a href="product-pages/3lander1.html"><img src="nft_images/3lander1.png" alt="nft-image"></a>
+            <h4>3 Landers</h4>
+            <div class="nft_data_container">
+                <div class="one-half l">
+                    ETH 0.24
+                    <p>Floor Price</p> 
+                </div>
+                <div class="one-half r">
+                    #3542
+                    <p> Rank </p>
+                </div>   
+            </div>
+        </div>
+
+        <div class="col-nft-p hidden">
+            <a href="product-pages/azuki1.html#product-jump"> <img src="nft_images/azuki1.png" alt="nft-image"> </a>
+            <h4>Azuki</h4>
+            <div class="nft_data_container">
+                <div class="one-half l">
+                    ETH 9.32
+                    <p>Floor Price</p> 
+                </div>
+                <div class="one-half r">
+                    #7652
+                    <p> Rank </p>
+                </div>   
+            </div>
+        </div>
+
+
+        <div class="col-nft-p hidden">
+            <a href="product-pages/guttercat1.html"><img src="nft_images/guttercat1.png" alt="nft-image"></a>  
+            <h4>Gutter Cats</h4>
+            <div class="nft_data_container">
+                <div class="one-half l">
+                    ETH 2.34
+                    <p>Floor Price</p> 
+                </div>
+                <div class="one-half r">
+                    #6442
+                    <p> Rank </p>
+                </div>   
+            </div>
+        </div>
+
+
+        <div class="col-nft-p hidden">
+            <a href="product-pages/guttercat2.html"><img src="nft_images/guttercat2.png" alt="nft-image"></a>  
+            <h4>Gutter Cats</h4>
+            <div class="nft_data_container">
+                <div class="one-half l">
+                    ETH 3.42
+                    <p>Floor Price</p> 
+                </div>
+                <div class="one-half r">
+                    #2166
+                    <p> Rank </p>
+                </div>   
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+    <!-- Row 2 -->
+  <div class="small-container">
+
+    <div class="row">
+
+        <div class="col-nft-p hidden">
+            <a href="product-pages/azuki2.html#product-jump"><img src="nft_images/azuki2.png" alt="nft-image"></a>
+            <h4>Azuki</h4>
+            <div class="nft_data_container">
+                <div class="one-half l">
+                    ETH 10.31
+                    <p>Floor Price</p> 
+                </div>
+                <div class="one-half r">
+                    #2464
+                    <p> Rank </p>
+                </div>   
+            </div>
+        </div>
+    
+        <div class="col-nft-p hidden">
+            <a href="product-pages/guttercat3.html"><img src="nft_images/guttercat3.png" alt="nft-image"></a>  
+            <h4>Gutter Cats</h4>
+            <div class="nft_data_container">
+                <div class="one-half l">
+                    ETH 2.34
+                    <p>Floor Price</p> 
+                </div>
+                <div class="one-half r">
+                    #3652
+                    <p> Rank </p>
+                </div>   
+            </div>
+        </div>
+
+
+        <div class="col-nft-p hidden">
+            <a href="product-pages/3lander2.html#product-jump"><img src="nft_images/3lander2.png" alt="nft-image"></a>
+            <h4>Azuki</h4>
+            <div class="nft_data_container">
+                <div class="one-half l">
+                    ETH 10.31
+                    <p>Floor Price</p> 
+                </div>
+                <div class="one-half r">
+                    #2464
+                    <p> Rank </p>
+                </div>   
+            </div>
+        </div>
+
+
+        <div class="col-nft-p hidden">
+            <a href="product-pages/azuki3.html#product-jump"><img src="nft_images/azuki3.png" alt="nft-image"></a>
+            <h4>Azuki</h4>
+            <div class="nft_data_container">
+                <div class="one-half l">
+                    ETH 12.32
+                    <p>Floor Price</p> 
+                </div>
+                <div class="one-half r">
+                    #1001
+                    <p> Rank </p>
+                </div>   
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+
+
+
+
+  <!----------------- Offer Section / Highlighted NFT section -------------------->
+    <div class="offer hidden">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-h">
+                    <img src="nft_images/golden.webp" class="offers_img" alt="nft-image">
+                </div>
+    
+                <div class="col-h">
+                    <h2> RM2 MILLION NFT!  </h2>
+                    <p> This NFT is from a 1/1 collection and was sold at ETH 496.<br/><br/> Around 2 Million Ringgit! 
+                        <br/><br/> All the funds collected from this NFT was also donated to charities!
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!------------------ Frequently Asked Questions FAQ ----------------------->
+<div class="faq-container " id="FAQJump">
+    <h2 class="title"> Frequently Asked Questions</h2>
+
+    <div class="question-container">
+
+        <div class="content-container hidden">
+            <div class="faq-header">
+                <h3> What is the purpose of this website </h3>
+
+                <span class="open activeFaq"> + </span>
+                <span class="close"> - </span>
+            </div>
+
+            <div class="question-content">
+                <p>
+                We created this website with a vision to create a central hub combine anything that 
+                has to do with NFTs on the ethereum blockchain. With the motto "buy, sell create or collect NFTs with ease", we aim
+                to make the the entry into NFTs seem less daunting as we simplify the process making it as easy as a press of a button
+                </p>
+                <br/>
+                <p>
+                This website was created by Christian Finta Cham - 20045472 as a final project assignemnt for a web fundementals course,
+                it took him more than 3 weeks to piece together the website one by one but in the end it turned out decent.
+                </p>
+            </div>
+        </div>
+
+        <div class="content-container hidden">
+            <div class="faq-header">
+                <h3> What in the world are NFTs? </h3>
+                <span class="open activeFaq"> + </span>
+                <span class="close"> - </span>
+            </div>
+
+            <div class="question-content">
+                <p> In short, a Non-fungible token. But what does "Non-fungible" mean? It means it us unique and cannot be replaced
+                    by anything else as each NFT has its own unique token. For example, a bitcoin is fungible - trade
+                    one bitcoin for another and its the exact same thing. Think of it at pokemon playing cards, but in a digital sense. There are common cards, rare cards and some 
+                    super rare cards each with their own availavility and uniqueness but instead of them all being the same, NFTs can be anything - from drawings, music all the way
+                    to "real estate" in a virtual world! </p>
+            </div>
+        </div>
+
+        <div class="content-container hidden">
+            <div class="faq-header">
+                <h3> How do NFTs and the Blockchain work?</h3>
+                <span class="open activeFaq"> + </span>
+                <span class="close"> - </span>
+            </div>
+
+            <div class="question-content">
+                <p>
+                At the highest level, it is safe to say most NFTs are a part of the Ethereum blockchain although there are some other blockchains which implemented their own
+                versions of NFTs which we are looking to eventually add to out site aswell!
+                </p>
+                <br/>
+                <p id="space_bottom"> But what is a blockchain?</p>
+                <p> Blockchains are extremely complex which cannot really be explained in a few words accurately. But the basic idea is that blockchains are a way to store
+                    data in a decentralized manner, which means there is no one company or entity that controls everything. Instead, its more of a collective agreement between 
+                    everyone where and how funds and data moves and where it goes.
+                </p>
+            </div>
+        </div>
+
+        <div class="content-container hidden">
+            <div class="faq-header">
+                <h3> How to contact us? </h3>
+                <span class="open activeFaq"> + </span>
+                <span class="close"> - </span>
+            </div>
+
+            <div class="question-content">
+                <p>
+                If you would like to contact us for any reason - that is if you have any NFT related business whether it is buying selling or creating or if you want to
+                congratulate us for creating such a flawless website, our phone number and address are given or you could send us a message below.
+                </p>
+                <br/>
+                <p> Phone: 010-424-6635</p>
+                <p> Address: 59 Lorong Hang Jebat, 75200, Melaka, Malaysia </p>
+                <br/>
+
+                <div class="contact-form">
+                    <form>
+                        <label for="contact-email" id="email-label"> Email </label>
+                        <input id="contact-email" name="contact-email" type="email" placeholder="Email" spellcheck="false" onkeyup="validateEmail()">
+                        <p id="email-error"> </p>
+                        
+    
+                        <label for="contact-message"> Message </label>
+                        <input id="contact-message" name="contact-message" type="text" placeholder="Input your message here">
+                        
+                        <a class="send-message"> Send Message </button></a>
+    
+                    </form>
+                </div>
+                
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!------------------- Footer  ------------------>
+
+<div class="footer" id="footerJump">
+
+    <div class="container">
+
+        <div class="row"> 
+            <div class="footer-col2">
+                <img src="nft_images/ccstore.png" alt="nft-image">
+                <p> The vision behind CC STORE NFTs is to create a decentralized platform that
+                    is a hub for anything NFT related hence or motto, "buy, sell, create or collect
+                    NFTs with ease" </p> 
+            </div>
+
+            <div class="footer-col1">
+                <div class="align-left">
+                    <h3> Address</h3>
+                    <ul>
+                        <li> THE ORANGUTAN HOUSE,</li>
+                        <li> 59 Lorong Hang Jebat,</li>
+                        <li> 75200 Melaka,</li>
+                        <li> Malaysia.</li>
+                        <li> Tel: 012-345-6789</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="footer-col3">
+                <div class="align-left">
+                    <h3> Links</h3>
+               
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Home</li>
+                        <li>Products</li>
+                        <li>Blog Posts</li>
+                        <li>Coupons</li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+            <div class="footer-col4">
+                <div class="align-left">
+                    <h3> Follow us</h3>
+               
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                    <li>Linked-in</li>
+                </ul>
+                </div>
+                
+            </div>
+        </div>
+
+        <hr/>
+
+        <p class="copyright">Copyright 2022 &copy; - CC Store NFTs - CHRISTIAN FINTA CHAM 20045472 </p> 
+    </div>
+</div>
+
+
+
+</body>
+</html>
